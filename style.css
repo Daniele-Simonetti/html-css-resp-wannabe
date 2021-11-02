@@ -31,6 +31,10 @@
 }
 
 @media screen and (max-width: 420px) {
+  div#lezioni div.row > h1 {
+    margin-top: 0;
+  }
+  
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
@@ -128,6 +132,13 @@
     width: 140px;
     height: 140px;
   }
+
+  #why .row>.first h3,
+  #why .row>.second h3,
+  #why .row>.third h3 {
+    margin: 0;
+  }
+
 }
 /* COMMON */
 .row::after {
@@ -146,4 +157,11 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 3.5em;
+  }
+  
 }
